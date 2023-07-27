@@ -8,6 +8,10 @@
         "type": "git",
         "url": "https://github.com/Smoke-Cloud/fds-code.git"
     },
+    "bugs": {
+        "url": "https://github.com/Smoke-Cloud/fds-code/issues",
+        "email": "joshannessy@smokecloud.io"
+    },
     "icon": "logo.png",
     "homepage": "https://smokecloud.io",
     "scripts": {
