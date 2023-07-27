@@ -3,10 +3,13 @@
     "displayName": "FDS-VSCode",
     "description": "Syntax highlighting for FDS input.",
     "version": "0.0.2",
-    "publisher": "Smoke-Cloud",
+    "publisher": "SmokeCloud",
     "repository": {
         "type": "git",
         "url": "https://github.com/Smoke-Cloud/fds-code.git"
+    },
+    "scripts": {
+        "package": "vsce package -o fds-vscode.vsix"
     },
     "engines": {
         "vscode": "^1.15.0"
