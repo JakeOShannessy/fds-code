@@ -2,25 +2,38 @@
     "name": "fds-vscode",
     "displayName": "FDS-VSCode",
     "description": "Syntax highlighting for FDS input.",
-    "version": "0.0.1",
-    "publisher": "JOShannessy",
+    "version": "0.0.2",
+    "publisher": "Smoke-Cloud",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Smoke-Cloud/fds-code.git"
+    },
     "engines": {
         "vscode": "^1.15.0"
     },
     "categories": [
-        "Languages"
+        "Linters"
     ],
     "contributes": {
-        "languages": [{
-            "id": "fds",
-            "aliases": ["FDS", "fds"],
-            "extensions": [".fds"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "fds",
-            "scopeName": "source.fds",
-            "path": "./syntaxes/fds.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "fds",
+                "aliases": [
+                    "FDS",
+                    "fds"
+                ],
+                "extensions": [
+                    ".fds"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "fds",
+                "scopeName": "source.fds",
+                "path": "./syntaxes/fds.tmLanguage.json"
+            }
+        ]
     }
 }
