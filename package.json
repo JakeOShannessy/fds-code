@@ -2,7 +2,7 @@
     "name": "fds-vscode",
     "displayName": "FDS",
     "description": "Syntax highlighting for FDS input.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "SmokeCloud",
     "repository": {
         "type": "git",
